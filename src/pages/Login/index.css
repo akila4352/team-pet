@@ -1,0 +1,21 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form{
+    box-shadow: 2px 6px 100px #000000;
+}
+.back{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Set the height to 100% of viewport height */
+    overflow: hidden; 
+
+}

@@ -1,0 +1,54 @@
+/* index.css */
+
+/* Style the carousel container */
+#carouselExampleAutoplaying {
+    max-width: 700px; /* Set your desired maximum width */
+    margin: 0 auto; /* Center the carousel horizontally */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Apply a box shadow */
+  
+    
+  }
+  
+  /* Style the carousel images */
+  .carousel-inner .carousel-item img {
+    width: 100%; /* Make images responsive and fill the container */
+    height: 300px; /* Set your desired height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    border-radius: 20px;
+
+    
+    
+  }
+  
+  /* Style the text in carousel captions */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Apply a semi-transparent black background */
+    color: #ffffff; /* Set text color to black */
+    padding: 20px; /* Add padding to the caption */
+    text-shadow: 2px 2px 2px #000000; /* Add white text shadow */
+    font-weight: bold;
+  }
+  
+  /* Style the paragraph text within captions */
+  .carousel-caption .para__text {
+    font-size: 16px; /* Set your desired font size */
+  }
+  
+  /* Style the "Book Now" button within captions */
+  .carousel-caption .btn__blue {
+    background-color: #007bff; /* Set button background color */
+    color: #fff; /* Set button text color */
+    padding: 5px 10px; /* Adjust padding as needed */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Add rounded corners to the button */
+    display: inline-block;
+    margin-top: 10px;
+    text-shadow: none; /* Remove text shadow on the button */
+    font-size: small;
+  }
+  /* Add this CSS to your index.css file */
+  .heder
+  {
+    text-align: center;
+    
+  }

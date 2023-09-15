@@ -1,0 +1,44 @@
+
+
+.social-icon2 {
+    width: 200px; 
+    height: 200px;  
+    border-radius: 50px;
+  }
+  .container3{
+    background-color: rgb(104, 104, 104);
+    padding: 100px;
+
+    
+  }
+  .para
+  {
+    padding: 10px; /* Adjust padding to control the shape */
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: medium;
+  }
+  
+.container3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px; 
+}
+
+.footer__title1{color: rgb(255, 255, 255);
+}
