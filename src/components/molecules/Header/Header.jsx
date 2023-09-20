@@ -1,16 +1,17 @@
 import React from "react";
 import "./Header.css";
 import Navbar from "../Navbar";
+import header_bg from './header-bg.jpg'
 
 
 
 const Header = () => {return(
-    <div className="header"  style = {{
-        background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),center`
+    <div className="header" style = {{
+        background: `linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(${header_bg}) center/cover no-repeat`
     }}>
-       <Navbar/>
+       
 
-        <div className="container2">
+        <div className="container2"><Navbar/>
             <div className="header__content text__center text__light flex flex__center">
                 <div className="header__content--left"></div>
                 <div className="header__content--right">
@@ -24,7 +25,7 @@ We are capable of vast number of services such as vaccination treatments to surg
  We are dedicated to provide the best care for your pet companions throughout their lives.
 
 Please contact us on 0771289961 for all your animal health care needs.</p>
-                    <a href = "#"className="btn__blue">contact us</a>
+                    <a href = "/register"className="btn__blue">Register Now</a>
                 </div>
             </div>
         </div>

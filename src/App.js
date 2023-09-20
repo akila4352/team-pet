@@ -5,6 +5,8 @@ import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import Service from './pages/Service';
 import Register from './pages/Register';
 import Login from './pages/Login';
+import Profile from './pages/profile';
+import Navbarprofile from './components/molecules/Navbarprofile';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Route path="/register" element={<Register/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/service" element={<Service/>} />
+      <Route path="/profile" element={<Profile/>} />
+      <Route path="/navbarprofile" element={<Navbarprofile/>} />
       </Routes>
       </BrowserRouter>
      

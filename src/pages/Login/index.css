@@ -13,9 +13,37 @@
     background-repeat: no-repeat;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    height: 100vh; /* Set the height to 100% of viewport height */
+    margin: 0; 
+    padding: 0; 
+    height: 100vh; 
     overflow: hidden; 
 
 }
+.container5{background-position: center;
+   
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw; 
+    height: 100vh; 
+  
+    align-items: center;}
+    .col-12{
+        text-align: center;
+    }
+    .setleft{
+        float: left;
+        margin-right: 20px;
+    }
+    .ful{
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .text-decoration-none{
+        padding: 20px;
+    }

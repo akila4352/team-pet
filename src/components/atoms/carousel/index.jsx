@@ -11,14 +11,14 @@ const Carousel = () => {
         data-bs-ride="carousel"
         
        
-      > <div className="heder"><h1 className="header__title fw__6"> OUR SERVICES</h1></div>
+      > 
         <div className="carousel-inner">
           <div className="carousel-item active">
             <img src="images/c5.jpg" className="d-block w-100" alt="..." />
             <div className="carousel-caption">
             <h1 className="header__title fw__6">Surgery</h1>
             <p className="para__text">Our surgery theater is fully equipped and capable of performing variety of surgeries for your canine and feline friends.</p>
-                    <a href = {'/service'}className="btn__blue">MORE DETAILS</a>
+                   
               
             </div>
           </div>
@@ -27,7 +27,7 @@ const Carousel = () => {
             <div className="carousel-caption">
             <h1 className="header__title fw__6">Home visits for pets</h1>
             <p className="para__text">Home Visits are when a pet sitter comes over to your home for a short visit to check in on your pet, feed and water them, and even take them out for a walk.</p>
-                    <a href = {'/service'}className="btn__blue">MORE DETAILS</a>
+                    
               
             </div>
           </div>
@@ -36,7 +36,7 @@ const Carousel = () => {
             <div className="carousel-caption">
             <h1 className="header__title fw__6">Inward care & Boarding</h1>
             <p className="para__text">Inward care and Boarding will help clients to leave their pet’s with us when they are sick or to board them when necessary</p>
-                    <a href = {'/service'}className="btn__blue">MORE DETAILS</a>
+                   
               
             </div>
             </div>
@@ -45,7 +45,7 @@ const Carousel = () => {
             <div className="carousel-caption">
             <h1 className="header__title fw__6">Pet’s shop and Pharmacy</h1>
             <p className="para__text">Inward care and Boarding will help clients to leave their pet’s with us when they are sick or to board them when necessary</p>
-                    <a href = {'/service'}className="btn__blue">MORE DETAILS</a>
+                    
               
             </div>
           </div>
@@ -54,7 +54,7 @@ const Carousel = () => {
             <div className="carousel-caption">
             <h1 className="header__title fw__6">OPD</h1>
                     <p className="para__text">Our OPD is functioning from 8.00am to 8.00pm to give you the best veterinary care and friendly service.</p>
-                    <a href = {'/service'} className="btn__blue">MORE DETAILS</a>
+                    
             </div>
           </div>
           

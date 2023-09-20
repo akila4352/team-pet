@@ -97,6 +97,7 @@
   font-size: 1.7rem;
   font-weight: 500;
   transition: var(--transition);
+ 
 }
 .btn__blue{
   background-color: var(--robin-blue-color);

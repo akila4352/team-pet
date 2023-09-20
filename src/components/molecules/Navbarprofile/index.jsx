@@ -4,13 +4,13 @@ import './styles.css';
 import logo from './logo.jpg'
 import per from './login.png'
 
-function Navbar() {
+function Navbarprofile() {
   return (
     <div>
       <nav className="navbar navbar-expand-lg custom-navbar">
         <div className="container-fluid">
          
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/profile">
             <img src={logo} alt="Logo" />
           </a>
           <button
@@ -26,8 +26,8 @@ function Navbar() {
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              <NavItems NavItem id={"nav"} name={'Home'} path={'/'} />
-              <NavItems NavItem id={"nav"} name={'Service'} path={'/service'} />
+              <NavItems NavItem id={"nav"} name={'Home'} path={'/profile'} />
+              <NavItems NavItem id={"nav"} name={'Service'} path={'/profile'} />
               <li className="nav-item dropdown">
                 <a
                   className="nav-link dropdown-toggle"
@@ -36,7 +36,7 @@ function Navbar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                 Menu
+                  Dropdown
                 </a>
                 <ul className="dropdown-menu">
                   <li>
@@ -62,10 +62,10 @@ function Navbar() {
             </ul>
             <ul className="navbar-nav mb-2 mb-lg-0 right">
              
-              <NavItems NavItem id={"nav"} name={'Register'} path={'/register'} />
+              <NavItems NavItem id={"nav"} name={'Register'} path={'/profile'} />
               
-              <NavItems NavItem id={"nav"} name={'Login'} path={'/login'}  />
-              <a className="top" href="/login">
+              <NavItems NavItem id={"nav"} name={'Log Out'} path={'/'}  />
+              <a className="top" href="/">
               <img src={per} alt="" /></a>
             </ul>
           </div>
@@ -75,4 +75,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbarprofile;

@@ -18,14 +18,7 @@
     margin: 0 auto;
     text-align: center;
 }
-.btn__blue{background-color: aqua;
-font-size:x-large;
-text-align: center;
-color: rgb(62, 59, 59);
-font-weight: bolder;
-padding: 10px;
 
- ;}
 
 @media(min-width: 992px){
     .header__content{
@@ -43,15 +36,28 @@ padding: 10px;
     }
 }
 
-.container2{
+.btn__blue {
+    background-color: rgb(0, 213, 255);
+    color: white; 
+    border-radius: 5px; 
+    font-style: italic; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 20px;
+  }
+  
+  
+  .btn__blue:hover {
+    background-color: #001e3d; 
+    color: white; 
+  }
+  
+ 
+  .btn__blue:active, .btn__blue:focus {
+    background-color: #0056b3; 
+    color: white; 
+  }
+  
 
-    background-image: url(header-bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    
-   
-    
-}
+  
