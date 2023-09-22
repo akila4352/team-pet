@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import Footeritems from "../../atoms/Footeritems";
 
 const Footer = () => {
     return (
@@ -36,11 +37,26 @@ const Footer = () => {
 
                     <div className="footer__content--item">
                         <h3 className="footer__title">Social LInks</h3>
-                        <ul class="footer__links">
-    <li><a href="https://web.facebook.com/dr.pethospital"><img src="images/facebook.png" alt="Facebook logo" class="social-icon" /> <span>Facebook</span></a></li>
-    <li><a href="https://www.instagram.com/dr.pet_hospital/?hl=en"><img src="images/twitter.png" alt="Twitter logo" class="social-icon" /> <span>Twitter</span></a></li>
-    <li><a href="https://www.instagram.com/dr.pet_hospital/?hl=en"><img src="images/instagram.png" alt="Instagram logo" class="social-icon" /> <span>Instagram</span></a></li>
-</ul>
+                        <ul className="footer__links">
+      <Footeritems
+        href="https://web.facebook.com/dr.pethospital"
+        imgSrc="images/facebook.png"
+        imgAlt="Facebook logo"
+        spanText="Facebook"
+      />
+      <Footeritems
+        href="https://www.instagram.com/dr.pet_hospital/?hl=en"
+        imgSrc="images/twitter.png"
+        imgAlt="Twitter logo"
+        spanText="Twitter"
+      />
+      <Footeritems
+        href="https://www.instagram.com/dr.pet_hospital/?hl=en"
+        imgSrc="images/instagram.png"
+        imgAlt="Instagram logo"
+        spanText="Instagram"
+      />
+    </ul>
 
                     </div>
                 </div>
