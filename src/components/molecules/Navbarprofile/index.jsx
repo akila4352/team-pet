@@ -62,7 +62,7 @@ function Navbarprofile() {
             </ul>
             <ul className="navbar-nav mb-2 mb-lg-0 right">
              
-              <NavItems NavItem id={"nav"} name={'Register'} path={'/profile'} />
+              <NavItems NavItem id={"nav"} name={'Settings'} path={'/profile'} />
               
               <NavItems NavItem id={"nav"} name={'Log Out'} path={'/'}  />
               <a className="top" href="/">
