@@ -24,8 +24,11 @@ const Login = () => {
     const password = document.getElementById('inputPassword4').value;
 
     if (username && emailValue && password) {
-     
-      navigate('/profile');
+
+      if (username === 'Manager') 
+      {
+      navigate('/Manager');
+      }
     } else {
       
       alert('Please fill in all required fields.');
