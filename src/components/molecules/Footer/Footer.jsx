@@ -13,15 +13,15 @@ const Footer = () => {
                     </div>
 
                     <div className="footer__content--item">
-                        <a href = "mailto:@gmail.com">drpet@gmail.com</a><br/>
+                        <a href = "mailto:@gmail.com" className="no">drpet@gmail.com</a><br/>
                         <span>0771289961</span>
                     </div>
 
-                    <div className="footer__content--item">
+                    <div className="footer__content--item ">
                         <h3 className="footer__title">Projects</h3>
                         <ul className="footer__links">
-                            <li><a href = "#">About</a></li>
-                            <li><a href = "#">Services</a></li>
+                            <li><a href = "#"className="no">About</a></li>
+                            <li><a href = "#"className="no">Services</a></li>
                           
                         </ul>
                     </div>
@@ -29,15 +29,15 @@ const Footer = () => {
                     <div className="footer__content--item">
                         <h3 className="footer__title">News</h3>
                         <ul className="footer__links">
-                            <li><a href = "#">Events</a></li>
-                            <li><a href = "#">Contact</a></li>
-                            <li><a href = "#">Legals</a></li>
+                            <li><a href = "#"className="no">Events</a></li>
+                            <li><a href = "#"className="no">Contact</a></li>
+                            <li><a href = "#"className="no">Legals</a></li>
                         </ul>
                     </div>
 
                     <div className="footer__content--item">
-                        <h3 className="footer__title">Social LInks</h3>
-                        <ul className="footer__links">
+                        <h3 className="footer__title no">Social LInks</h3>
+                        <ul className="footer__links no">
       <Footeritems
         href="https://web.facebook.com/dr.pethospital"
         imgSrc="images/facebook.png"

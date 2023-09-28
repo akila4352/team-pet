@@ -7,6 +7,9 @@ import Register from './pages/Register';
 import Login from './pages/Login';
 import Profile from './pages/profile';
 import Navbarprofile from './components/molecules/Navbarprofile';
+import Manager from './pages/Manager/Manager';
+import Petshop from './pages/Manager/Petshop';
+
 
 function App() {
   return (
@@ -20,6 +23,9 @@ function App() {
       <Route path="/service" element={<Service/>} />
       <Route path="/profile" element={<Profile/>} />
       <Route path="/navbarprofile" element={<Navbarprofile/>} />
+      <Route path="/Manager" element={<Manager/>} />
+      <Route path="/petshop" element={<Petshop/>} />
+     
       </Routes>
       </BrowserRouter>
      
